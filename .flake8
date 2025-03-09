@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 100
+exclude = .git,__pycache__,migrations,settings.py
+ignore = E203,W503,W293
+# Django-specific settings
+max-complexity = 10
